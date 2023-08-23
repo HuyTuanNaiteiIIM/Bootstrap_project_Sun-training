@@ -17,7 +17,7 @@
       crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./index.css">
-    <title>Hello, world!</title>
+    <title>Nice admin</title>
   </head>
   <body>
     <!-- Header section -->
@@ -43,18 +43,23 @@
         <nav class="header__navbar col-xl-4 col-6 col-md-5">
           <ul class="navbar-nav d-flex flex-row justify-content-end">
             <li class="nav-item my-auto">
-              <a class="nav-link" href="#"><i class="fa-sharp fa-solid fa-bell"><span class="badge bg-danger">4</span></i>
+              <a class="nav-link" href="#"><i class="fa-sharp fa-solid fa-bell"><span class="badge bg-info">4</span></i>
               </a>
             </li>
             <li class="nav-item my-auto">
-              <a class="nav-link" href="#"><i class="fa-sharp fa-solid fa-message"><span class="badge bg-danger">3</span></i></a>
+              <a class="nav-link" href="#"><i class="fa-sharp fa-solid fa-message"><span class="badge bg-success">3</span></i></a>
             </li>
-            <li class="nav-item my-auto">
-              <a class="nav-link d-flex flex-row" href="#">
+            <li class="nav-item my-auto dropdown">
+              <a class="nav-link d-flex flex-row " data-bs-toggle="dropdown" href="#">
                 <img src="./img/FACE.jpg" alt="avatar"
                   class="img-thumbnail rounded-circle">
                 <span class="d-none d-md-block dropdown-toggle ps-2 my-auto header__navbar__name">Huy Tuấn</span>
               </a>
+              <ul class="dropdown-menu">
+                <li>Web desiginer</li>
+                <li>Information</li>
+                <li>Career</li>
+              </ul>
             </li>
           </ul>
         </nav>
@@ -106,6 +111,7 @@
           <li class="sidebar__nav__item"><a href="" class="nav-link"><i class="fas fa-money-check-alt"></i><span>Blank</span></a></li>
         </ul>
       </aside>
+      <!-- Dashboard section container -->
       <main class="main">
         <div class="main__pagetitle">
           <h1>Dashboard</h1>
